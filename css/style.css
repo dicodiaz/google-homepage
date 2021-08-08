@@ -2,4 +2,89 @@ body {
     /* background: #202124; */
 }
 
-.mainContent {}
+.mainContent,
+.searchBar,
+.searchButtons {
+    margin: auto;
+    width: fit-content;
+    padding: 10px;
+}
+
+.mainContent {
+    padding: 200px 0;
+}
+
+#search {
+    height: 34px;
+    width: 527px;
+}
+
+#searchIcon {
+    height: 34px;
+    width: 34px;
+    opacity: 0.5;
+}
+
+.imgCenter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.searchButton {
+    font: 400 13.3333px Arial;
+    text-align: center;
+    height: 36px;
+    color: #5F6368;
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+}
+
+.topNavBar {
+    position: absolute;
+    top: 10px;
+    margin: 10px;
+}
+
+.left {
+    position: fixed;
+    left: 0;
+}
+
+.right {
+    position: fixed;
+    right: 0;
+}
+
+.topNav a {
+    margin: 0 10px;
+    color: black;
+    text-decoration: none;
+}
+
+.buttonLike {
+    background: #4285f4;
+    padding: 10px;
+    border: 1px solid #4285f4;
+    color: white;
+    font-weight: bold;
+}
+
+.botNav {
+    position: absolute;
+    bottom: 20px;
+    margin: 10px;
+    width: 97%;
+    background: #f2f2f2;
+}
+
+.botNavBar {
+    width: fit-content;
+    background: #f2f2f2;
+}
+
+.botNav a {
+    margin: 0 10px;
+    color: #5f6368;
+    text-decoration: none;
+}
