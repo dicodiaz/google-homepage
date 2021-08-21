@@ -2,56 +2,54 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Google</title>
-    <link rel="stylesheet" href="css\style.css" />
-    <link rel="icon" href="img\google_favicon.png" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
   </head>
 
   <body>
-    <header>
-      <div class="topNavBar left">
-        <nav class="topNav">
-          <a href="#">About</a>
-          <a href="#">Store</a>
+    <div class="container">
+      <header class="header">
+        <nav>
+          <ul class="list">
+            <li class="box about"><a href="https://web.archive.org/web/20191130234759/https://about.google/?fg=1&utm_source=google-US&utm_medium=referral&utm_campaign=hp-header">About</a></li>
+            <li class="box store"><a href="https://web.archive.org/web/20191130234759/https://store.google.com/US?utm_source=hp_header&utm_medium=google_ooo&utm_campaign=GS100042&hl=en-US">Store</a></li>
+            <li class="box gmail"><a href="https://web.archive.org/web/20191130234759/https://mail.google.com/mail/?tab=wm&ogbl">Gmail</a></li>
+            <li class="box images"><a href="https://web.archive.org/web/20191130234759/https://www.google.com/imghp?hl=en&tab=wi&ogbl">Images</a></li>
+            <li class="box apps">
+              <a href="#"><span class="material-icons">apps</span></a>
+            </li>
+            <li class="box"><button class="button" type="button">Sign in</button></li>
+          </ul>
         </nav>
-      </div>
-      <div class="topNavBar right">
-        <nav class="topNav">
-          <a href="#">Gmail</a>
-          <a href="#">Images</a>
-          <a href="#"><img src="img\outline_apps_black_24dp.png" alt="Apps" /></a>
-          <a class="buttonLike" href="#" style="color: white">Sign in</a>
-        </nav>
-      </div>
-    </header>
-    <div class="mainContent">
-      <img class="imgCenter" src="img\google_logo_light.png" alt="Google" />
-      <div class="searchForm">
+      </header>
+      <main class="main">
+        <img class="logo" src="https://web.archive.org/web/20191130234759im_/https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="google_logo" />
         <form action="get">
-          <div class="searchBar">
-            <img src="img\outline_search_black_24dp.png" alt="Search" id="searchIcon" />
-            <input type="text" id="search" name="search" />
+          <div class="search">
+            <span class="box2 material-icons">search</span>
+            <input class="box2 text" type="text" />
+            <a href="#"><span class="box2 material-icons">mic</span></a>
           </div>
-          <div class="searchButtons">
-            <input type="submit" value="Google Search" class="searchButton" />
-            <input type="button" value="I'm Feeling Lucky" class="searchButton" />
+          <div class="buttons2">
+            <input class="button2" type="submit" value="Google Search" />
+            <input class="button2" type="button" value="I'm Feeling Lucky" />
           </div>
         </form>
-      </div>
+      </main>
+      <footer class="footer">
+        <nav>
+          <ul class="list2">
+            <li class="box3 box3-1"><a href="https://web.archive.org/web/20191130234759/https://www.google.com/intl/en_us/ads/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1">Advertising</a></li>
+            <li class="box3 box3-2"><a href="https://web.archive.org/web/20191130234759/https://www.google.com/services/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpbfooter&fg=1">Business</a></li>
+            <li class="box3 box3-3"><a href="https://web.archive.org/web/20191130234759/https://google.com/search/howsearchworks/?fg=1">How Search works</a></li>
+            <li class="box3 box3-4"><a href="https://web.archive.org/web/20191130234759/https://policies.google.com/privacy?fg=1">Privacy</a></li>
+            <li class="box3 box3-5"><a href="https://web.archive.org/web/20191130234759/https://policies.google.com/terms?fg=1">Terms</a></li>
+            <li class="box3 box3-6"><a href="https://web.archive.org/web/20191130234759/https://www.google.com/preferences?hl=en">Settings</a></li>
+          </ul>
+        </nav>
+      </footer>
     </div>
-    <footer>
-      <nav class="botNav">
-        <div class="botNavBar left">
-          <a href="#">Advertising</a>
-          <a href="#">Business</a>
-          <a href="#">How Search works</a>
-        </div>
-        <div class="botNavBar right">
-          <a href="#">Privacy</a>
-          <a href="#">Terms</a>
-          <a href="#">Settings</a>
-        </div>
-      </nav>
-    </footer>
   </body>
 </html>
