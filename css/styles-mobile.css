@@ -1,0 +1,91 @@
+.list a:hover,
+.list2 a:hover {
+  text-decoration: none;
+}
+
+.list > .all {
+  display: list-item;
+  color: rgb(66, 133, 244);
+  font-family: Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 48px;
+  text-transform: uppercase;
+  border-bottom: 2px solid rgb(66, 133, 244);
+}
+
+.list > .all > a {
+  cursor: text;
+}
+
+.list > .all > a:hover {
+  text-decoration: none;
+}
+
+.list > .images {
+  color: rgb(112, 117, 122);
+  font-family: Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 48px;
+  text-transform: uppercase;
+  margin-right: auto;
+}
+
+.about,
+.store,
+.gmail {
+  display: none;
+}
+
+.mic {
+  display: none;
+}
+
+.buttons2 {
+  display: none;
+}
+
+.search-container {
+  width: 95%;
+}
+
+.footer {
+  flex-basis: 75px;
+}
+
+.footer nav {
+  flex: 0;
+  min-width: 263px;
+  height: 100%;
+}
+
+.list2 {
+  flex-wrap: wrap;
+  height: 100%;
+}
+
+.box3 {
+  margin: 0;
+  flex: 1 1 33.33%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box3-3 {
+  display: none;
+}
+
+.box3-6 {
+  order: -1;
+}
+
+.box3-1,
+.box3-2 {
+  order: 1;
+}
+
+.box3-0 {
+  order: 2;
+}
