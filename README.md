@@ -1,4 +1,4 @@
-# Portfolio: mobile version
+# Google Homepage Clone
 
 This project consists in building a site that looks like the Google Homepage. It allows web development students to begin building so they can start getting the technical skills necessary to become a front-end developer. [Instructions here.](https://www.theodinproject.com/paths/foundations/courses/foundations/lessons/html-css)
 
@@ -14,56 +14,32 @@ This project consists in building a site that looks like the Google Homepage. It
 
 - HTML5
 - CSS3
-- Visual Studio Code
-- Git & Github
+- VSCode
+- Git & GitHub
 
 ## Live Demo
 
-[Live Demo Link](https://dicodiaz.github.io/google-homepage/)
+[Live Demo Link](https://dicodiaz.me/google-homepage/)
 
 ## Getting Started
 
-To get a local copy up and running follow these simple example steps.
+To get this project up and running, follow these simple steps:
 
-- Clone repo into your machine. For this, I recommend the following steps:
-  - Open a terminal of your choice (e.g. VS Code integrated terminal)
-  - Select the destination folder (On windows, run cd "_Destination folder_")
-  - Run git clone https://github.com/dicodiaz/google-homepage
-- Open the destination folder in your preferred file explorer
-- Open folder "Portfolio"
-- Open index.html
-
-### Prerequisites
-
-Any modern web browser will do.
+1. Clone the repository into your machine (Or download the .zip file and extract).
+2. Open the project's folder.
+3. Open `index.html`
 
 ### Setup
 
 Follow the steps described before.
-
-### Install
-
-N/A
-
-### Usage
-
-N/A
-
-### Run tests
-
-N/A
-
-### Deployment
-
-N/A
 
 ## Authors
 
 👤 **Dico Diaz Dussan**
 
 - GitHub: [@dicodiaz](https://github.com/dicodiaz)
-- Twitter: [@DicoDiaz1](https://twitter.com/DicoDiaz1)
 - LinkedIn: [Dico Diaz Dussan](https://www.linkedin.com/in/dico-diaz-dussan)
+- Portfolio: [dicodiaz.com.co](https://dicodiaz.com.co)
 
 ## 🤝 Contributing
 
@@ -77,9 +53,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- Microverse program
+- [The Odin Project](https://www.theodinproject.com)
 
 ## 📝 License
 
